@@ -1,0 +1,2184 @@
+{
+  "regions": [
+    "Todas",
+    "Norte",
+    "Nordeste",
+    "Centro-Oeste",
+    "Sudeste",
+    "Sul"
+  ],
+  "points": [
+    {
+      "region": "Todas",
+      "delay": -30,
+      "avgScore": 4.26,
+      "orders": 2712
+    },
+    {
+      "region": "Todas",
+      "delay": -29,
+      "avgScore": 4.26,
+      "orders": 488
+    },
+    {
+      "region": "Todas",
+      "delay": -28,
+      "avgScore": 4.3,
+      "orders": 747
+    },
+    {
+      "region": "Todas",
+      "delay": -27,
+      "avgScore": 4.23,
+      "orders": 808
+    },
+    {
+      "region": "Todas",
+      "delay": -26,
+      "avgScore": 4.28,
+      "orders": 792
+    },
+    {
+      "region": "Todas",
+      "delay": -25,
+      "avgScore": 4.27,
+      "orders": 908
+    },
+    {
+      "region": "Todas",
+      "delay": -24,
+      "avgScore": 4.31,
+      "orders": 1062
+    },
+    {
+      "region": "Todas",
+      "delay": -23,
+      "avgScore": 4.27,
+      "orders": 1252
+    },
+    {
+      "region": "Todas",
+      "delay": -22,
+      "avgScore": 4.34,
+      "orders": 1837
+    },
+    {
+      "region": "Todas",
+      "delay": -21,
+      "avgScore": 4.31,
+      "orders": 2803
+    },
+    {
+      "region": "Todas",
+      "delay": -20,
+      "avgScore": 4.37,
+      "orders": 2949
+    },
+    {
+      "region": "Todas",
+      "delay": -19,
+      "avgScore": 4.36,
+      "orders": 2693
+    },
+    {
+      "region": "Todas",
+      "delay": -18,
+      "avgScore": 4.33,
+      "orders": 3116
+    },
+    {
+      "region": "Todas",
+      "delay": -17,
+      "avgScore": 4.34,
+      "orders": 3398
+    },
+    {
+      "region": "Todas",
+      "delay": -16,
+      "avgScore": 4.33,
+      "orders": 3888
+    },
+    {
+      "region": "Todas",
+      "delay": -15,
+      "avgScore": 4.35,
+      "orders": 5318
+    },
+    {
+      "region": "Todas",
+      "delay": -14,
+      "avgScore": 4.33,
+      "orders": 7090
+    },
+    {
+      "region": "Todas",
+      "delay": -13,
+      "avgScore": 4.34,
+      "orders": 5926
+    },
+    {
+      "region": "Todas",
+      "delay": -12,
+      "avgScore": 4.31,
+      "orders": 4526
+    },
+    {
+      "region": "Todas",
+      "delay": -11,
+      "avgScore": 4.3,
+      "orders": 4592
+    },
+    {
+      "region": "Todas",
+      "delay": -10,
+      "avgScore": 4.33,
+      "orders": 4618
+    },
+    {
+      "region": "Todas",
+      "delay": -9,
+      "avgScore": 4.29,
+      "orders": 4606
+    },
+    {
+      "region": "Todas",
+      "delay": -8,
+      "avgScore": 4.26,
+      "orders": 4800
+    },
+    {
+      "region": "Todas",
+      "delay": -7,
+      "avgScore": 4.26,
+      "orders": 4815
+    },
+    {
+      "region": "Todas",
+      "delay": -6,
+      "avgScore": 4.25,
+      "orders": 3603
+    },
+    {
+      "region": "Todas",
+      "delay": -5,
+      "avgScore": 4.19,
+      "orders": 2208
+    },
+    {
+      "region": "Todas",
+      "delay": -4,
+      "avgScore": 4.15,
+      "orders": 1903
+    },
+    {
+      "region": "Todas",
+      "delay": -3,
+      "avgScore": 4.12,
+      "orders": 1715
+    },
+    {
+      "region": "Todas",
+      "delay": -2,
+      "avgScore": 4.13,
+      "orders": 1540
+    },
+    {
+      "region": "Todas",
+      "delay": -1,
+      "avgScore": 4.16,
+      "orders": 1450
+    },
+    {
+      "region": "Todas",
+      "delay": 0,
+      "avgScore": 4.03,
+      "orders": 1280
+    },
+    {
+      "region": "Todas",
+      "delay": 1,
+      "avgScore": 3.73,
+      "orders": 820
+    },
+    {
+      "region": "Todas",
+      "delay": 2,
+      "avgScore": 3.18,
+      "orders": 536
+    },
+    {
+      "region": "Todas",
+      "delay": 3,
+      "avgScore": 2.68,
+      "orders": 496
+    },
+    {
+      "region": "Todas",
+      "delay": 4,
+      "avgScore": 2.5,
+      "orders": 436
+    },
+    {
+      "region": "Todas",
+      "delay": 5,
+      "avgScore": 2.2,
+      "orders": 434
+    },
+    {
+      "region": "Todas",
+      "delay": 6,
+      "avgScore": 1.81,
+      "orders": 407
+    },
+    {
+      "region": "Todas",
+      "delay": 7,
+      "avgScore": 1.91,
+      "orders": 471
+    },
+    {
+      "region": "Todas",
+      "delay": 8,
+      "avgScore": 1.71,
+      "orders": 330
+    },
+    {
+      "region": "Todas",
+      "delay": 9,
+      "avgScore": 1.67,
+      "orders": 219
+    },
+    {
+      "region": "Todas",
+      "delay": 10,
+      "avgScore": 1.58,
+      "orders": 207
+    },
+    {
+      "region": "Todas",
+      "delay": 11,
+      "avgScore": 1.73,
+      "orders": 177
+    },
+    {
+      "region": "Todas",
+      "delay": 12,
+      "avgScore": 1.66,
+      "orders": 155
+    },
+    {
+      "region": "Todas",
+      "delay": 13,
+      "avgScore": 1.73,
+      "orders": 189
+    },
+    {
+      "region": "Todas",
+      "delay": 14,
+      "avgScore": 1.59,
+      "orders": 169
+    },
+    {
+      "region": "Todas",
+      "delay": 15,
+      "avgScore": 1.7,
+      "orders": 155
+    },
+    {
+      "region": "Todas",
+      "delay": 16,
+      "avgScore": 1.66,
+      "orders": 94
+    },
+    {
+      "region": "Todas",
+      "delay": 17,
+      "avgScore": 1.67,
+      "orders": 89
+    },
+    {
+      "region": "Todas",
+      "delay": 18,
+      "avgScore": 1.73,
+      "orders": 73
+    },
+    {
+      "region": "Todas",
+      "delay": 19,
+      "avgScore": 1.51,
+      "orders": 74
+    },
+    {
+      "region": "Todas",
+      "delay": 20,
+      "avgScore": 1.63,
+      "orders": 86
+    },
+    {
+      "region": "Todas",
+      "delay": 21,
+      "avgScore": 1.67,
+      "orders": 76
+    },
+    {
+      "region": "Todas",
+      "delay": 22,
+      "avgScore": 1.72,
+      "orders": 64
+    },
+    {
+      "region": "Todas",
+      "delay": 23,
+      "avgScore": 1.47,
+      "orders": 34
+    },
+    {
+      "region": "Todas",
+      "delay": 24,
+      "avgScore": 1.54,
+      "orders": 52
+    },
+    {
+      "region": "Todas",
+      "delay": 25,
+      "avgScore": 1.59,
+      "orders": 39
+    },
+    {
+      "region": "Todas",
+      "delay": 26,
+      "avgScore": 1.36,
+      "orders": 33
+    },
+    {
+      "region": "Todas",
+      "delay": 27,
+      "avgScore": 1.52,
+      "orders": 40
+    },
+    {
+      "region": "Todas",
+      "delay": 28,
+      "avgScore": 1.61,
+      "orders": 46
+    },
+    {
+      "region": "Todas",
+      "delay": 29,
+      "avgScore": 1.32,
+      "orders": 37
+    },
+    {
+      "region": "Todas",
+      "delay": 30,
+      "avgScore": 2.03,
+      "orders": 343
+    },
+    {
+      "region": "Norte",
+      "delay": -30,
+      "avgScore": 4.26,
+      "orders": 180
+    },
+    {
+      "region": "Norte",
+      "delay": -29,
+      "avgScore": 4.44,
+      "orders": 32
+    },
+    {
+      "region": "Norte",
+      "delay": -28,
+      "avgScore": 4.59,
+      "orders": 34
+    },
+    {
+      "region": "Norte",
+      "delay": -27,
+      "avgScore": 4.11,
+      "orders": 45
+    },
+    {
+      "region": "Norte",
+      "delay": -26,
+      "avgScore": 4.34,
+      "orders": 41
+    },
+    {
+      "region": "Norte",
+      "delay": -25,
+      "avgScore": 4.41,
+      "orders": 34
+    },
+    {
+      "region": "Norte",
+      "delay": -24,
+      "avgScore": 4.29,
+      "orders": 55
+    },
+    {
+      "region": "Norte",
+      "delay": -23,
+      "avgScore": 4.18,
+      "orders": 56
+    },
+    {
+      "region": "Norte",
+      "delay": -22,
+      "avgScore": 3.88,
+      "orders": 58
+    },
+    {
+      "region": "Norte",
+      "delay": -21,
+      "avgScore": 4.28,
+      "orders": 89
+    },
+    {
+      "region": "Norte",
+      "delay": -20,
+      "avgScore": 4.38,
+      "orders": 73
+    },
+    {
+      "region": "Norte",
+      "delay": -19,
+      "avgScore": 4.13,
+      "orders": 78
+    },
+    {
+      "region": "Norte",
+      "delay": -18,
+      "avgScore": 4.23,
+      "orders": 57
+    },
+    {
+      "region": "Norte",
+      "delay": -17,
+      "avgScore": 4.22,
+      "orders": 65
+    },
+    {
+      "region": "Norte",
+      "delay": -16,
+      "avgScore": 4.47,
+      "orders": 81
+    },
+    {
+      "region": "Norte",
+      "delay": -15,
+      "avgScore": 4.45,
+      "orders": 69
+    },
+    {
+      "region": "Norte",
+      "delay": -14,
+      "avgScore": 4.22,
+      "orders": 90
+    },
+    {
+      "region": "Norte",
+      "delay": -13,
+      "avgScore": 4.19,
+      "orders": 59
+    },
+    {
+      "region": "Norte",
+      "delay": -12,
+      "avgScore": 4.15,
+      "orders": 47
+    },
+    {
+      "region": "Norte",
+      "delay": -11,
+      "avgScore": 4.0,
+      "orders": 55
+    },
+    {
+      "region": "Norte",
+      "delay": -10,
+      "avgScore": 4.31,
+      "orders": 49
+    },
+    {
+      "region": "Norte",
+      "delay": -9,
+      "avgScore": 4.2,
+      "orders": 40
+    },
+    {
+      "region": "Norte",
+      "delay": -8,
+      "avgScore": 4.15,
+      "orders": 48
+    },
+    {
+      "region": "Norte",
+      "delay": -7,
+      "avgScore": 3.52,
+      "orders": 40
+    },
+    {
+      "region": "Norte",
+      "delay": -6,
+      "avgScore": 4.24,
+      "orders": 33
+    },
+    {
+      "region": "Norte",
+      "delay": -5,
+      "avgScore": 3.74,
+      "orders": 27
+    },
+    {
+      "region": "Norte",
+      "delay": -4,
+      "avgScore": 3.86,
+      "orders": 22
+    },
+    {
+      "region": "Norte",
+      "delay": -3,
+      "avgScore": 4.05,
+      "orders": 20
+    },
+    {
+      "region": "Norte",
+      "delay": -2,
+      "avgScore": 3.21,
+      "orders": 14
+    },
+    {
+      "region": "Norte",
+      "delay": -1,
+      "avgScore": 3.78,
+      "orders": 18
+    },
+    {
+      "region": "Norte",
+      "delay": 0,
+      "avgScore": 4.27,
+      "orders": 22
+    },
+    {
+      "region": "Norte",
+      "delay": 1,
+      "avgScore": 4.0,
+      "orders": 14
+    },
+    {
+      "region": "Norte",
+      "delay": 2,
+      "avgScore": 3.29,
+      "orders": 7
+    },
+    {
+      "region": "Norte",
+      "delay": 3,
+      "avgScore": 4.11,
+      "orders": 9
+    },
+    {
+      "region": "Norte",
+      "delay": 4,
+      "avgScore": 2.83,
+      "orders": 6
+    },
+    {
+      "region": "Norte",
+      "delay": 5,
+      "avgScore": 1.83,
+      "orders": 12
+    },
+    {
+      "region": "Norte",
+      "delay": 6,
+      "avgScore": 1.53,
+      "orders": 15
+    },
+    {
+      "region": "Norte",
+      "delay": 7,
+      "avgScore": 2.33,
+      "orders": 12
+    },
+    {
+      "region": "Norte",
+      "delay": 8,
+      "avgScore": 1.17,
+      "orders": 6
+    },
+    {
+      "region": "Norte",
+      "delay": 9,
+      "avgScore": 1.67,
+      "orders": 9
+    },
+    {
+      "region": "Norte",
+      "delay": 10,
+      "avgScore": 1.22,
+      "orders": 9
+    },
+    {
+      "region": "Norte",
+      "delay": 11,
+      "avgScore": 1.5,
+      "orders": 2
+    },
+    {
+      "region": "Norte",
+      "delay": 12,
+      "avgScore": 1.0,
+      "orders": 1
+    },
+    {
+      "region": "Norte",
+      "delay": 13,
+      "avgScore": 1.14,
+      "orders": 7
+    },
+    {
+      "region": "Norte",
+      "delay": 14,
+      "avgScore": 1.0,
+      "orders": 3
+    },
+    {
+      "region": "Norte",
+      "delay": 15,
+      "avgScore": 2.17,
+      "orders": 6
+    },
+    {
+      "region": "Norte",
+      "delay": 16,
+      "avgScore": 3.0,
+      "orders": 1
+    },
+    {
+      "region": "Norte",
+      "delay": 17,
+      "avgScore": 1.0,
+      "orders": 2
+    },
+    {
+      "region": "Norte",
+      "delay": 18,
+      "avgScore": 2.33,
+      "orders": 3
+    },
+    {
+      "region": "Norte",
+      "delay": 19,
+      "avgScore": 1.0,
+      "orders": 3
+    },
+    {
+      "region": "Norte",
+      "delay": 21,
+      "avgScore": 1.5,
+      "orders": 2
+    },
+    {
+      "region": "Norte",
+      "delay": 22,
+      "avgScore": 1.0,
+      "orders": 1
+    },
+    {
+      "region": "Norte",
+      "delay": 24,
+      "avgScore": 1.0,
+      "orders": 1
+    },
+    {
+      "region": "Norte",
+      "delay": 25,
+      "avgScore": 1.0,
+      "orders": 1
+    },
+    {
+      "region": "Norte",
+      "delay": 26,
+      "avgScore": 1.0,
+      "orders": 1
+    },
+    {
+      "region": "Norte",
+      "delay": 28,
+      "avgScore": 3.0,
+      "orders": 2
+    },
+    {
+      "region": "Norte",
+      "delay": 29,
+      "avgScore": 1.0,
+      "orders": 3
+    },
+    {
+      "region": "Norte",
+      "delay": 30,
+      "avgScore": 1.9,
+      "orders": 10
+    },
+    {
+      "region": "Nordeste",
+      "delay": -30,
+      "avgScore": 4.27,
+      "orders": 323
+    },
+    {
+      "region": "Nordeste",
+      "delay": -29,
+      "avgScore": 4.34,
+      "orders": 58
+    },
+    {
+      "region": "Nordeste",
+      "delay": -28,
+      "avgScore": 4.09,
+      "orders": 120
+    },
+    {
+      "region": "Nordeste",
+      "delay": -27,
+      "avgScore": 4.23,
+      "orders": 128
+    },
+    {
+      "region": "Nordeste",
+      "delay": -26,
+      "avgScore": 4.46,
+      "orders": 104
+    },
+    {
+      "region": "Nordeste",
+      "delay": -25,
+      "avgScore": 4.32,
+      "orders": 121
+    },
+    {
+      "region": "Nordeste",
+      "delay": -24,
+      "avgScore": 4.32,
+      "orders": 123
+    },
+    {
+      "region": "Nordeste",
+      "delay": -23,
+      "avgScore": 4.33,
+      "orders": 150
+    },
+    {
+      "region": "Nordeste",
+      "delay": -22,
+      "avgScore": 4.25,
+      "orders": 238
+    },
+    {
+      "region": "Nordeste",
+      "delay": -21,
+      "avgScore": 4.29,
+      "orders": 344
+    },
+    {
+      "region": "Nordeste",
+      "delay": -20,
+      "avgScore": 4.35,
+      "orders": 365
+    },
+    {
+      "region": "Nordeste",
+      "delay": -19,
+      "avgScore": 4.33,
+      "orders": 305
+    },
+    {
+      "region": "Nordeste",
+      "delay": -18,
+      "avgScore": 4.31,
+      "orders": 294
+    },
+    {
+      "region": "Nordeste",
+      "delay": -17,
+      "avgScore": 4.24,
+      "orders": 299
+    },
+    {
+      "region": "Nordeste",
+      "delay": -16,
+      "avgScore": 4.32,
+      "orders": 323
+    },
+    {
+      "region": "Nordeste",
+      "delay": -15,
+      "avgScore": 4.27,
+      "orders": 438
+    },
+    {
+      "region": "Nordeste",
+      "delay": -14,
+      "avgScore": 4.28,
+      "orders": 567
+    },
+    {
+      "region": "Nordeste",
+      "delay": -13,
+      "avgScore": 4.32,
+      "orders": 464
+    },
+    {
+      "region": "Nordeste",
+      "delay": -12,
+      "avgScore": 4.16,
+      "orders": 351
+    },
+    {
+      "region": "Nordeste",
+      "delay": -11,
+      "avgScore": 4.12,
+      "orders": 311
+    },
+    {
+      "region": "Nordeste",
+      "delay": -10,
+      "avgScore": 4.31,
+      "orders": 305
+    },
+    {
+      "region": "Nordeste",
+      "delay": -9,
+      "avgScore": 4.11,
+      "orders": 304
+    },
+    {
+      "region": "Nordeste",
+      "delay": -8,
+      "avgScore": 4.1,
+      "orders": 323
+    },
+    {
+      "region": "Nordeste",
+      "delay": -7,
+      "avgScore": 4.22,
+      "orders": 311
+    },
+    {
+      "region": "Nordeste",
+      "delay": -6,
+      "avgScore": 4.18,
+      "orders": 275
+    },
+    {
+      "region": "Nordeste",
+      "delay": -5,
+      "avgScore": 3.99,
+      "orders": 165
+    },
+    {
+      "region": "Nordeste",
+      "delay": -4,
+      "avgScore": 3.93,
+      "orders": 167
+    },
+    {
+      "region": "Nordeste",
+      "delay": -3,
+      "avgScore": 4.22,
+      "orders": 144
+    },
+    {
+      "region": "Nordeste",
+      "delay": -2,
+      "avgScore": 3.9,
+      "orders": 145
+    },
+    {
+      "region": "Nordeste",
+      "delay": -1,
+      "avgScore": 4.0,
+      "orders": 146
+    },
+    {
+      "region": "Nordeste",
+      "delay": 0,
+      "avgScore": 3.92,
+      "orders": 143
+    },
+    {
+      "region": "Nordeste",
+      "delay": 1,
+      "avgScore": 3.56,
+      "orders": 104
+    },
+    {
+      "region": "Nordeste",
+      "delay": 2,
+      "avgScore": 3.24,
+      "orders": 74
+    },
+    {
+      "region": "Nordeste",
+      "delay": 3,
+      "avgScore": 2.7,
+      "orders": 71
+    },
+    {
+      "region": "Nordeste",
+      "delay": 4,
+      "avgScore": 2.64,
+      "orders": 69
+    },
+    {
+      "region": "Nordeste",
+      "delay": 5,
+      "avgScore": 2.22,
+      "orders": 77
+    },
+    {
+      "region": "Nordeste",
+      "delay": 6,
+      "avgScore": 1.91,
+      "orders": 68
+    },
+    {
+      "region": "Nordeste",
+      "delay": 7,
+      "avgScore": 2.04,
+      "orders": 80
+    },
+    {
+      "region": "Nordeste",
+      "delay": 8,
+      "avgScore": 1.96,
+      "orders": 56
+    },
+    {
+      "region": "Nordeste",
+      "delay": 9,
+      "avgScore": 1.61,
+      "orders": 46
+    },
+    {
+      "region": "Nordeste",
+      "delay": 10,
+      "avgScore": 1.45,
+      "orders": 53
+    },
+    {
+      "region": "Nordeste",
+      "delay": 11,
+      "avgScore": 1.39,
+      "orders": 44
+    },
+    {
+      "region": "Nordeste",
+      "delay": 12,
+      "avgScore": 2.03,
+      "orders": 34
+    },
+    {
+      "region": "Nordeste",
+      "delay": 13,
+      "avgScore": 1.82,
+      "orders": 50
+    },
+    {
+      "region": "Nordeste",
+      "delay": 14,
+      "avgScore": 1.49,
+      "orders": 35
+    },
+    {
+      "region": "Nordeste",
+      "delay": 15,
+      "avgScore": 1.8,
+      "orders": 30
+    },
+    {
+      "region": "Nordeste",
+      "delay": 16,
+      "avgScore": 1.59,
+      "orders": 17
+    },
+    {
+      "region": "Nordeste",
+      "delay": 17,
+      "avgScore": 1.74,
+      "orders": 19
+    },
+    {
+      "region": "Nordeste",
+      "delay": 18,
+      "avgScore": 1.42,
+      "orders": 12
+    },
+    {
+      "region": "Nordeste",
+      "delay": 19,
+      "avgScore": 1.47,
+      "orders": 15
+    },
+    {
+      "region": "Nordeste",
+      "delay": 20,
+      "avgScore": 1.78,
+      "orders": 18
+    },
+    {
+      "region": "Nordeste",
+      "delay": 21,
+      "avgScore": 1.92,
+      "orders": 13
+    },
+    {
+      "region": "Nordeste",
+      "delay": 22,
+      "avgScore": 1.69,
+      "orders": 13
+    },
+    {
+      "region": "Nordeste",
+      "delay": 23,
+      "avgScore": 1.62,
+      "orders": 8
+    },
+    {
+      "region": "Nordeste",
+      "delay": 24,
+      "avgScore": 1.4,
+      "orders": 5
+    },
+    {
+      "region": "Nordeste",
+      "delay": 25,
+      "avgScore": 1.36,
+      "orders": 11
+    },
+    {
+      "region": "Nordeste",
+      "delay": 26,
+      "avgScore": 2.0,
+      "orders": 4
+    },
+    {
+      "region": "Nordeste",
+      "delay": 27,
+      "avgScore": 1.44,
+      "orders": 9
+    },
+    {
+      "region": "Nordeste",
+      "delay": 28,
+      "avgScore": 1.4,
+      "orders": 5
+    },
+    {
+      "region": "Nordeste",
+      "delay": 29,
+      "avgScore": 1.0,
+      "orders": 5
+    },
+    {
+      "region": "Nordeste",
+      "delay": 30,
+      "avgScore": 2.13,
+      "orders": 76
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -30,
+      "avgScore": 4.04,
+      "orders": 138
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -29,
+      "avgScore": 4.43,
+      "orders": 23
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -28,
+      "avgScore": 4.35,
+      "orders": 43
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -27,
+      "avgScore": 4.02,
+      "orders": 52
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -26,
+      "avgScore": 4.54,
+      "orders": 46
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -25,
+      "avgScore": 4.51,
+      "orders": 43
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -24,
+      "avgScore": 4.37,
+      "orders": 43
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -23,
+      "avgScore": 3.91,
+      "orders": 67
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -22,
+      "avgScore": 4.23,
+      "orders": 142
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -21,
+      "avgScore": 4.37,
+      "orders": 205
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -20,
+      "avgScore": 4.41,
+      "orders": 227
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -19,
+      "avgScore": 4.42,
+      "orders": 204
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -18,
+      "avgScore": 4.24,
+      "orders": 175
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -17,
+      "avgScore": 4.35,
+      "orders": 223
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -16,
+      "avgScore": 4.37,
+      "orders": 262
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -15,
+      "avgScore": 4.3,
+      "orders": 328
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -14,
+      "avgScore": 4.33,
+      "orders": 447
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -13,
+      "avgScore": 4.28,
+      "orders": 339
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -12,
+      "avgScore": 4.2,
+      "orders": 253
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -11,
+      "avgScore": 4.37,
+      "orders": 227
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -10,
+      "avgScore": 4.27,
+      "orders": 264
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -9,
+      "avgScore": 4.16,
+      "orders": 240
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -8,
+      "avgScore": 4.18,
+      "orders": 252
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -7,
+      "avgScore": 4.25,
+      "orders": 255
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -6,
+      "avgScore": 4.24,
+      "orders": 179
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -5,
+      "avgScore": 4.03,
+      "orders": 124
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -4,
+      "avgScore": 4.09,
+      "orders": 92
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -3,
+      "avgScore": 4.03,
+      "orders": 99
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -2,
+      "avgScore": 4.07,
+      "orders": 97
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": -1,
+      "avgScore": 4.2,
+      "orders": 64
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 0,
+      "avgScore": 4.0,
+      "orders": 80
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 1,
+      "avgScore": 3.96,
+      "orders": 48
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 2,
+      "avgScore": 3.02,
+      "orders": 41
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 3,
+      "avgScore": 1.96,
+      "orders": 25
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 4,
+      "avgScore": 1.77,
+      "orders": 26
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 5,
+      "avgScore": 2.13,
+      "orders": 30
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 6,
+      "avgScore": 1.43,
+      "orders": 14
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 7,
+      "avgScore": 1.48,
+      "orders": 27
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 8,
+      "avgScore": 1.91,
+      "orders": 23
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 9,
+      "avgScore": 2.15,
+      "orders": 13
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 10,
+      "avgScore": 1.36,
+      "orders": 11
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 11,
+      "avgScore": 1.56,
+      "orders": 9
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 12,
+      "avgScore": 1.36,
+      "orders": 11
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 13,
+      "avgScore": 1.67,
+      "orders": 9
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 14,
+      "avgScore": 1.33,
+      "orders": 9
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 15,
+      "avgScore": 2.4,
+      "orders": 5
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 16,
+      "avgScore": 1.86,
+      "orders": 7
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 17,
+      "avgScore": 1.5,
+      "orders": 4
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 18,
+      "avgScore": 2.25,
+      "orders": 4
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 19,
+      "avgScore": 1.0,
+      "orders": 4
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 20,
+      "avgScore": 1.2,
+      "orders": 5
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 21,
+      "avgScore": 4.0,
+      "orders": 2
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 22,
+      "avgScore": 1.2,
+      "orders": 5
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 23,
+      "avgScore": 2.33,
+      "orders": 3
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 24,
+      "avgScore": 1.0,
+      "orders": 1
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 25,
+      "avgScore": 1.0,
+      "orders": 2
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 27,
+      "avgScore": 1.5,
+      "orders": 4
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 28,
+      "avgScore": 3.0,
+      "orders": 3
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 29,
+      "avgScore": 1.0,
+      "orders": 4
+    },
+    {
+      "region": "Centro-Oeste",
+      "delay": 30,
+      "avgScore": 1.58,
+      "orders": 12
+    },
+    {
+      "region": "Sudeste",
+      "delay": -30,
+      "avgScore": 4.27,
+      "orders": 1675
+    },
+    {
+      "region": "Sudeste",
+      "delay": -29,
+      "avgScore": 4.22,
+      "orders": 305
+    },
+    {
+      "region": "Sudeste",
+      "delay": -28,
+      "avgScore": 4.28,
+      "orders": 436
+    },
+    {
+      "region": "Sudeste",
+      "delay": -27,
+      "avgScore": 4.24,
+      "orders": 437
+    },
+    {
+      "region": "Sudeste",
+      "delay": -26,
+      "avgScore": 4.23,
+      "orders": 457
+    },
+    {
+      "region": "Sudeste",
+      "delay": -25,
+      "avgScore": 4.25,
+      "orders": 544
+    },
+    {
+      "region": "Sudeste",
+      "delay": -24,
+      "avgScore": 4.3,
+      "orders": 634
+    },
+    {
+      "region": "Sudeste",
+      "delay": -23,
+      "avgScore": 4.29,
+      "orders": 776
+    },
+    {
+      "region": "Sudeste",
+      "delay": -22,
+      "avgScore": 4.36,
+      "orders": 1068
+    },
+    {
+      "region": "Sudeste",
+      "delay": -21,
+      "avgScore": 4.33,
+      "orders": 1643
+    },
+    {
+      "region": "Sudeste",
+      "delay": -20,
+      "avgScore": 4.36,
+      "orders": 1739
+    },
+    {
+      "region": "Sudeste",
+      "delay": -19,
+      "avgScore": 4.38,
+      "orders": 1637
+    },
+    {
+      "region": "Sudeste",
+      "delay": -18,
+      "avgScore": 4.35,
+      "orders": 2031
+    },
+    {
+      "region": "Sudeste",
+      "delay": -17,
+      "avgScore": 4.35,
+      "orders": 2219
+    },
+    {
+      "region": "Sudeste",
+      "delay": -16,
+      "avgScore": 4.31,
+      "orders": 2575
+    },
+    {
+      "region": "Sudeste",
+      "delay": -15,
+      "avgScore": 4.35,
+      "orders": 3560
+    },
+    {
+      "region": "Sudeste",
+      "delay": -14,
+      "avgScore": 4.34,
+      "orders": 4934
+    },
+    {
+      "region": "Sudeste",
+      "delay": -13,
+      "avgScore": 4.34,
+      "orders": 4206
+    },
+    {
+      "region": "Sudeste",
+      "delay": -12,
+      "avgScore": 4.33,
+      "orders": 3287
+    },
+    {
+      "region": "Sudeste",
+      "delay": -11,
+      "avgScore": 4.31,
+      "orders": 3417
+    },
+    {
+      "region": "Sudeste",
+      "delay": -10,
+      "avgScore": 4.35,
+      "orders": 3438
+    },
+    {
+      "region": "Sudeste",
+      "delay": -9,
+      "avgScore": 4.31,
+      "orders": 3487
+    },
+    {
+      "region": "Sudeste",
+      "delay": -8,
+      "avgScore": 4.29,
+      "orders": 3604
+    },
+    {
+      "region": "Sudeste",
+      "delay": -7,
+      "avgScore": 4.27,
+      "orders": 3666
+    },
+    {
+      "region": "Sudeste",
+      "delay": -6,
+      "avgScore": 4.25,
+      "orders": 2685
+    },
+    {
+      "region": "Sudeste",
+      "delay": -5,
+      "avgScore": 4.23,
+      "orders": 1644
+    },
+    {
+      "region": "Sudeste",
+      "delay": -4,
+      "avgScore": 4.2,
+      "orders": 1396
+    },
+    {
+      "region": "Sudeste",
+      "delay": -3,
+      "avgScore": 4.11,
+      "orders": 1257
+    },
+    {
+      "region": "Sudeste",
+      "delay": -2,
+      "avgScore": 4.18,
+      "orders": 1104
+    },
+    {
+      "region": "Sudeste",
+      "delay": -1,
+      "avgScore": 4.2,
+      "orders": 1042
+    },
+    {
+      "region": "Sudeste",
+      "delay": 0,
+      "avgScore": 4.05,
+      "orders": 876
+    },
+    {
+      "region": "Sudeste",
+      "delay": 1,
+      "avgScore": 3.75,
+      "orders": 540
+    },
+    {
+      "region": "Sudeste",
+      "delay": 2,
+      "avgScore": 3.19,
+      "orders": 350
+    },
+    {
+      "region": "Sudeste",
+      "delay": 3,
+      "avgScore": 2.68,
+      "orders": 319
+    },
+    {
+      "region": "Sudeste",
+      "delay": 4,
+      "avgScore": 2.49,
+      "orders": 290
+    },
+    {
+      "region": "Sudeste",
+      "delay": 5,
+      "avgScore": 2.22,
+      "orders": 255
+    },
+    {
+      "region": "Sudeste",
+      "delay": 6,
+      "avgScore": 1.73,
+      "orders": 258
+    },
+    {
+      "region": "Sudeste",
+      "delay": 7,
+      "avgScore": 1.89,
+      "orders": 293
+    },
+    {
+      "region": "Sudeste",
+      "delay": 8,
+      "avgScore": 1.66,
+      "orders": 199
+    },
+    {
+      "region": "Sudeste",
+      "delay": 9,
+      "avgScore": 1.64,
+      "orders": 129
+    },
+    {
+      "region": "Sudeste",
+      "delay": 10,
+      "avgScore": 1.61,
+      "orders": 107
+    },
+    {
+      "region": "Sudeste",
+      "delay": 11,
+      "avgScore": 1.95,
+      "orders": 97
+    },
+    {
+      "region": "Sudeste",
+      "delay": 12,
+      "avgScore": 1.57,
+      "orders": 82
+    },
+    {
+      "region": "Sudeste",
+      "delay": 13,
+      "avgScore": 1.64,
+      "orders": 89
+    },
+    {
+      "region": "Sudeste",
+      "delay": 14,
+      "avgScore": 1.66,
+      "orders": 105
+    },
+    {
+      "region": "Sudeste",
+      "delay": 15,
+      "avgScore": 1.6,
+      "orders": 96
+    },
+    {
+      "region": "Sudeste",
+      "delay": 16,
+      "avgScore": 1.66,
+      "orders": 56
+    },
+    {
+      "region": "Sudeste",
+      "delay": 17,
+      "avgScore": 1.66,
+      "orders": 50
+    },
+    {
+      "region": "Sudeste",
+      "delay": 18,
+      "avgScore": 1.66,
+      "orders": 38
+    },
+    {
+      "region": "Sudeste",
+      "delay": 19,
+      "avgScore": 1.53,
+      "orders": 43
+    },
+    {
+      "region": "Sudeste",
+      "delay": 20,
+      "avgScore": 1.58,
+      "orders": 55
+    },
+    {
+      "region": "Sudeste",
+      "delay": 21,
+      "avgScore": 1.59,
+      "orders": 51
+    },
+    {
+      "region": "Sudeste",
+      "delay": 22,
+      "avgScore": 1.7,
+      "orders": 40
+    },
+    {
+      "region": "Sudeste",
+      "delay": 23,
+      "avgScore": 1.33,
+      "orders": 21
+    },
+    {
+      "region": "Sudeste",
+      "delay": 24,
+      "avgScore": 1.65,
+      "orders": 37
+    },
+    {
+      "region": "Sudeste",
+      "delay": 25,
+      "avgScore": 1.83,
+      "orders": 23
+    },
+    {
+      "region": "Sudeste",
+      "delay": 26,
+      "avgScore": 1.3,
+      "orders": 27
+    },
+    {
+      "region": "Sudeste",
+      "delay": 27,
+      "avgScore": 1.62,
+      "orders": 24
+    },
+    {
+      "region": "Sudeste",
+      "delay": 28,
+      "avgScore": 1.29,
+      "orders": 31
+    },
+    {
+      "region": "Sudeste",
+      "delay": 29,
+      "avgScore": 1.55,
+      "orders": 22
+    },
+    {
+      "region": "Sudeste",
+      "delay": 30,
+      "avgScore": 1.94,
+      "orders": 225
+    },
+    {
+      "region": "Sul",
+      "delay": -30,
+      "avgScore": 4.25,
+      "orders": 396
+    },
+    {
+      "region": "Sul",
+      "delay": -29,
+      "avgScore": 4.19,
+      "orders": 70
+    },
+    {
+      "region": "Sul",
+      "delay": -28,
+      "avgScore": 4.48,
+      "orders": 114
+    },
+    {
+      "region": "Sul",
+      "delay": -27,
+      "avgScore": 4.29,
+      "orders": 146
+    },
+    {
+      "region": "Sul",
+      "delay": -26,
+      "avgScore": 4.18,
+      "orders": 144
+    },
+    {
+      "region": "Sul",
+      "delay": -25,
+      "avgScore": 4.19,
+      "orders": 166
+    },
+    {
+      "region": "Sul",
+      "delay": -24,
+      "avgScore": 4.32,
+      "orders": 207
+    },
+    {
+      "region": "Sul",
+      "delay": -23,
+      "avgScore": 4.3,
+      "orders": 203
+    },
+    {
+      "region": "Sul",
+      "delay": -22,
+      "avgScore": 4.49,
+      "orders": 331
+    },
+    {
+      "region": "Sul",
+      "delay": -21,
+      "avgScore": 4.26,
+      "orders": 522
+    },
+    {
+      "region": "Sul",
+      "delay": -20,
+      "avgScore": 4.37,
+      "orders": 545
+    },
+    {
+      "region": "Sul",
+      "delay": -19,
+      "avgScore": 4.31,
+      "orders": 469
+    },
+    {
+      "region": "Sul",
+      "delay": -18,
+      "avgScore": 4.33,
+      "orders": 559
+    },
+    {
+      "region": "Sul",
+      "delay": -17,
+      "avgScore": 4.36,
+      "orders": 592
+    },
+    {
+      "region": "Sul",
+      "delay": -16,
+      "avgScore": 4.4,
+      "orders": 647
+    },
+    {
+      "region": "Sul",
+      "delay": -15,
+      "avgScore": 4.4,
+      "orders": 923
+    },
+    {
+      "region": "Sul",
+      "delay": -14,
+      "avgScore": 4.32,
+      "orders": 1052
+    },
+    {
+      "region": "Sul",
+      "delay": -13,
+      "avgScore": 4.38,
+      "orders": 858
+    },
+    {
+      "region": "Sul",
+      "delay": -12,
+      "avgScore": 4.33,
+      "orders": 588
+    },
+    {
+      "region": "Sul",
+      "delay": -11,
+      "avgScore": 4.37,
+      "orders": 582
+    },
+    {
+      "region": "Sul",
+      "delay": -10,
+      "avgScore": 4.3,
+      "orders": 562
+    },
+    {
+      "region": "Sul",
+      "delay": -9,
+      "avgScore": 4.33,
+      "orders": 535
+    },
+    {
+      "region": "Sul",
+      "delay": -8,
+      "avgScore": 4.17,
+      "orders": 573
+    },
+    {
+      "region": "Sul",
+      "delay": -7,
+      "avgScore": 4.22,
+      "orders": 543
+    },
+    {
+      "region": "Sul",
+      "delay": -6,
+      "avgScore": 4.24,
+      "orders": 431
+    },
+    {
+      "region": "Sul",
+      "delay": -5,
+      "avgScore": 4.25,
+      "orders": 248
+    },
+    {
+      "region": "Sul",
+      "delay": -4,
+      "avgScore": 4.0,
+      "orders": 226
+    },
+    {
+      "region": "Sul",
+      "delay": -3,
+      "avgScore": 4.17,
+      "orders": 195
+    },
+    {
+      "region": "Sul",
+      "delay": -2,
+      "avgScore": 4.11,
+      "orders": 180
+    },
+    {
+      "region": "Sul",
+      "delay": -1,
+      "avgScore": 4.04,
+      "orders": 180
+    },
+    {
+      "region": "Sul",
+      "delay": 0,
+      "avgScore": 4.06,
+      "orders": 159
+    },
+    {
+      "region": "Sul",
+      "delay": 1,
+      "avgScore": 3.68,
+      "orders": 114
+    },
+    {
+      "region": "Sul",
+      "delay": 2,
+      "avgScore": 3.16,
+      "orders": 64
+    },
+    {
+      "region": "Sul",
+      "delay": 3,
+      "avgScore": 2.75,
+      "orders": 72
+    },
+    {
+      "region": "Sul",
+      "delay": 4,
+      "avgScore": 2.71,
+      "orders": 45
+    },
+    {
+      "region": "Sul",
+      "delay": 5,
+      "avgScore": 2.17,
+      "orders": 60
+    },
+    {
+      "region": "Sul",
+      "delay": 6,
+      "avgScore": 2.25,
+      "orders": 52
+    },
+    {
+      "region": "Sul",
+      "delay": 7,
+      "avgScore": 1.95,
+      "orders": 59
+    },
+    {
+      "region": "Sul",
+      "delay": 8,
+      "avgScore": 1.59,
+      "orders": 46
+    },
+    {
+      "region": "Sul",
+      "delay": 9,
+      "avgScore": 1.64,
+      "orders": 22
+    },
+    {
+      "region": "Sul",
+      "delay": 10,
+      "avgScore": 1.93,
+      "orders": 27
+    },
+    {
+      "region": "Sul",
+      "delay": 11,
+      "avgScore": 1.56,
+      "orders": 25
+    },
+    {
+      "region": "Sul",
+      "delay": 12,
+      "avgScore": 1.63,
+      "orders": 27
+    },
+    {
+      "region": "Sul",
+      "delay": 13,
+      "avgScore": 1.97,
+      "orders": 34
+    },
+    {
+      "region": "Sul",
+      "delay": 14,
+      "avgScore": 1.65,
+      "orders": 17
+    },
+    {
+      "region": "Sul",
+      "delay": 15,
+      "avgScore": 1.72,
+      "orders": 18
+    },
+    {
+      "region": "Sul",
+      "delay": 16,
+      "avgScore": 1.54,
+      "orders": 13
+    },
+    {
+      "region": "Sul",
+      "delay": 17,
+      "avgScore": 1.79,
+      "orders": 14
+    },
+    {
+      "region": "Sul",
+      "delay": 18,
+      "avgScore": 1.88,
+      "orders": 16
+    },
+    {
+      "region": "Sul",
+      "delay": 19,
+      "avgScore": 1.89,
+      "orders": 9
+    },
+    {
+      "region": "Sul",
+      "delay": 20,
+      "avgScore": 1.88,
+      "orders": 8
+    },
+    {
+      "region": "Sul",
+      "delay": 21,
+      "avgScore": 1.25,
+      "orders": 8
+    },
+    {
+      "region": "Sul",
+      "delay": 22,
+      "avgScore": 2.6,
+      "orders": 5
+    },
+    {
+      "region": "Sul",
+      "delay": 23,
+      "avgScore": 1.0,
+      "orders": 2
+    },
+    {
+      "region": "Sul",
+      "delay": 24,
+      "avgScore": 1.25,
+      "orders": 8
+    },
+    {
+      "region": "Sul",
+      "delay": 25,
+      "avgScore": 1.0,
+      "orders": 2
+    },
+    {
+      "region": "Sul",
+      "delay": 26,
+      "avgScore": 1.0,
+      "orders": 1
+    },
+    {
+      "region": "Sul",
+      "delay": 27,
+      "avgScore": 1.0,
+      "orders": 3
+    },
+    {
+      "region": "Sul",
+      "delay": 28,
+      "avgScore": 2.4,
+      "orders": 5
+    },
+    {
+      "region": "Sul",
+      "delay": 29,
+      "avgScore": 1.0,
+      "orders": 3
+    },
+    {
+      "region": "Sul",
+      "delay": 30,
+      "avgScore": 2.9,
+      "orders": 20
+    }
+  ]
+}

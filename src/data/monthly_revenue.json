@@ -1,0 +1,127 @@
+[
+  {
+    "order_month": "2016-09",
+    "revenue": 252.24,
+    "orders": 3
+  },
+  {
+    "order_month": "2016-10",
+    "revenue": 59090.48,
+    "orders": 324
+  },
+  {
+    "order_month": "2016-12",
+    "revenue": 19.62,
+    "orders": 1
+  },
+  {
+    "order_month": "2017-01",
+    "revenue": 138488.04,
+    "orders": 800
+  },
+  {
+    "order_month": "2017-02",
+    "revenue": 291908.01,
+    "orders": 1780
+  },
+  {
+    "order_month": "2017-03",
+    "revenue": 449863.6,
+    "orders": 2682
+  },
+  {
+    "order_month": "2017-04",
+    "revenue": 417788.03,
+    "orders": 2404
+  },
+  {
+    "order_month": "2017-05",
+    "revenue": 592918.82,
+    "orders": 3700
+  },
+  {
+    "order_month": "2017-06",
+    "revenue": 511276.38,
+    "orders": 3245
+  },
+  {
+    "order_month": "2017-07",
+    "revenue": 592382.92,
+    "orders": 4026
+  },
+  {
+    "order_month": "2017-08",
+    "revenue": 674396.32,
+    "orders": 4331
+  },
+  {
+    "order_month": "2017-09",
+    "revenue": 727762.45,
+    "orders": 4285
+  },
+  {
+    "order_month": "2017-10",
+    "revenue": 779677.88,
+    "orders": 4631
+  },
+  {
+    "order_month": "2017-11",
+    "revenue": 1194882.8,
+    "orders": 7544
+  },
+  {
+    "order_month": "2017-12",
+    "revenue": 878401.48,
+    "orders": 5673
+  },
+  {
+    "order_month": "2018-01",
+    "revenue": 1115004.18,
+    "orders": 7269
+  },
+  {
+    "order_month": "2018-02",
+    "revenue": 992463.34,
+    "orders": 6728
+  },
+  {
+    "order_month": "2018-03",
+    "revenue": 1159652.12,
+    "orders": 7211
+  },
+  {
+    "order_month": "2018-04",
+    "revenue": 1160785.48,
+    "orders": 6939
+  },
+  {
+    "order_month": "2018-05",
+    "revenue": 1153982.15,
+    "orders": 6873
+  },
+  {
+    "order_month": "2018-06",
+    "revenue": 1023880.5,
+    "orders": 6167
+  },
+  {
+    "order_month": "2018-07",
+    "revenue": 1066540.75,
+    "orders": 6292
+  },
+  {
+    "order_month": "2018-08",
+    "revenue": 1022425.32,
+    "orders": 6512
+  },
+  {
+    "order_month": "2018-09",
+    "revenue": 4439.54,
+    "orders": 16
+  },
+  {
+    "order_month": "2018-10",
+    "revenue": 589.67,
+    "orders": 4
+  }
+]

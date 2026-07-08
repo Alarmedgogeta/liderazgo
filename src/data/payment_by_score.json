@@ -1,0 +1,32 @@
+[
+  {
+    "score": 1,
+    "paymentValue": 1806523.28,
+    "orders": 9352,
+    "pctValue": 11.81
+  },
+  {
+    "score": 2,
+    "paymentValue": 496568.28,
+    "orders": 2920,
+    "pctValue": 3.25
+  },
+  {
+    "score": 3,
+    "paymentValue": 1196402.78,
+    "orders": 7917,
+    "pctValue": 7.82
+  },
+  {
+    "score": 4,
+    "paymentValue": 2921915.02,
+    "orders": 18893,
+    "pctValue": 19.1
+  },
+  {
+    "score": 5,
+    "paymentValue": 8872621.73,
+    "orders": 56749,
+    "pctValue": 58.01
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "totalRevenue": 16008872.12,
+  "totalOrders": 99441,
+  "avgTicket": 160.58,
+  "deliveryRate": 97.02,
+  "avgReviewScore": 4.09,
+  "totalCustomers": 96096,
+  "totalSellers": 3095,
+  "lateDeliveryRate": 6.77,
+  "onTimeAvgScore": 4.29,
+  "lateAvgScore": 2.27,
+  "lateOrdersRevenue": 1150865.66
+}

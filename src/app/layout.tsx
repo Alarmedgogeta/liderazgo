@@ -14,8 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Supply Chain Optimization Program — Executive Briefing',
-  description: 'Executive presentation with a dynamic case study dashboard.',
+  title: 'Olist — Presentación Ejecutiva Interactiva',
+  description:
+    'Análisis del e-commerce brasileño Olist: ventas, logística y experiencia del cliente.',
 };
 
 export default function RootLayout({
