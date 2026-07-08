@@ -1,0 +1,22 @@
+/*
+ * reveal.js's white theme styles h1-h6 via `:root` custom properties consumed
+ * by `.reveal h1` etc. Overriding at `.reveal` scope alone ties on specificity
+ * with the theme's `:root` block, so this file must be imported after the
+ * theme stylesheet to win on source order. Every heading property in the
+ * theme is variable-driven, so this is a complete override.
+ */
+.reveal {
+  --r-background-color: #ffffff;
+  --r-main-font: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --r-main-color: #171717;
+  --r-heading-font: var(--r-main-font);
+  --r-heading-color: #171717;
+  --r-heading-font-weight: 600;
+  --r-heading-text-transform: none;
+  --r-heading-letter-spacing: normal;
+  --r-heading-line-height: 1.15;
+  --r-heading-margin: 0 0 1.25rem 0;
+  --r-heading1-size: 3rem;
+  --r-heading2-size: 1.875rem;
+  --r-heading3-size: 0.875rem;
+}
