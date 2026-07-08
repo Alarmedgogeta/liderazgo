@@ -182,7 +182,7 @@ export default function Home() {
             para evaluar la rentabilidad de vendedores y transportistas.
           </em>
         </p>
-        <CategoryTable rows={10} />
+        <CategoryTable maxHeight={420} />
       </Slide>
 
       {/* Slide 6 — Conclusión e impacto esperado (feedback loop) */}

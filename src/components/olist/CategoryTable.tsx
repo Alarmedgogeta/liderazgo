@@ -44,7 +44,13 @@ function SortIcon({ isActive, descending }: { isActive: boolean; descending: boo
   return <ChevronUp size={13} />;
 }
 
-export default function CategoryTable({ rows = 12 }: { rows?: number }) {
+export default function CategoryTable({
+  rows = categoryMatrix.length,
+  maxHeight = 400,
+}: {
+  rows?: number;
+  maxHeight?: number;
+}) {
   const [sortKey, setSortKey] = useState<SortKey>('volume');
   const [descending, setDescending] = useState(true);
 
@@ -74,62 +80,77 @@ export default function CategoryTable({ rows = 12 }: { rows?: number }) {
       style={{ borderColor: 'var(--border-hairline)', backgroundColor: 'var(--surface-1)' }}
     >
       <h3 style={{ margin: '0 0 8px', color: 'var(--text-primary)' }}>
-        Top categorías: volumen, flete y satisfacción — clic en columnas para ordenar
+        Top 20 categorías: volumen, flete y satisfacción — ordena con las columnas y desplázate para
+        ver todas
       </h3>
-      <table className="w-full border-collapse text-sm">
-        <thead>
-          <tr>
-            <th
-              className="py-1.5 pr-2 text-left text-xs font-medium"
-              style={{ color: 'var(--text-secondary)' }}
-            >
-              Categoría
-            </th>
-            {COLUMNS.map((col) => (
-              <th key={col.key} className="px-2 py-1.5 text-right">
-                <button
-                  type="button"
-                  onClick={() => toggleSort(col.key)}
-                  className="inline-flex items-center gap-1 text-xs font-medium"
-                  style={{
-                    color: col.key === sortKey ? 'var(--text-primary)' : 'var(--text-secondary)',
-                  }}
-                >
-                  {col.label}
-                  <SortIcon isActive={col.key === sortKey} descending={descending} />
-                </button>
+      <div className="overflow-y-auto" style={{ maxHeight }}>
+        <table className="w-full border-collapse text-sm">
+          <thead
+            className="sticky top-0 z-10"
+            style={{
+              backgroundColor: 'var(--surface-1)',
+              boxShadow: 'inset 0 -1px 0 var(--gridline)',
+            }}
+          >
+            <tr>
+              <th
+                className="py-1.5 pr-2 text-left text-xs font-medium"
+                style={{ color: 'var(--text-secondary)' }}
+              >
+                Categoría
               </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody style={{ color: 'var(--text-primary)' }}>
-          {sorted.map((row: Row) => (
-            <tr key={row.category} className="border-t" style={{ borderColor: 'var(--gridline)' }}>
-              <td className="max-w-[220px] truncate py-1 pr-2 capitalize">
-                {labelize(row.category)}
-              </td>
-              <td className="px-2 py-1 text-right tabular-nums">{formatNumber(row.volume)}</td>
-              <td className="px-2 py-1 text-right tabular-nums">{formatBRLCompact(row.revenue)}</td>
-              <td className="px-2 py-1 text-right">
-                <span
-                  className="inline-block min-w-[72px] rounded px-2 py-0.5 text-right tabular-nums"
-                  style={freightHeat(row.avgFreight, freightMin, freightMax)}
-                >
-                  {formatBRLCents(row.avgFreight)}
-                </span>
-              </td>
-              <td className="px-2 py-1 text-right">
-                <span
-                  className="inline-block min-w-[48px] rounded px-2 py-0.5 text-right tabular-nums"
-                  style={reviewHeat(row.avgReview)}
-                >
-                  {row.avgReview.toFixed(2)}
-                </span>
-              </td>
+              {COLUMNS.map((col) => (
+                <th key={col.key} className="px-2 py-1.5 text-right">
+                  <button
+                    type="button"
+                    onClick={() => toggleSort(col.key)}
+                    className="inline-flex items-center gap-1 text-xs font-medium"
+                    style={{
+                      color: col.key === sortKey ? 'var(--text-primary)' : 'var(--text-secondary)',
+                    }}
+                  >
+                    {col.label}
+                    <SortIcon isActive={col.key === sortKey} descending={descending} />
+                  </button>
+                </th>
+              ))}
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody style={{ color: 'var(--text-primary)' }}>
+            {sorted.map((row: Row) => (
+              <tr
+                key={row.category}
+                className="border-t"
+                style={{ borderColor: 'var(--gridline)' }}
+              >
+                <td className="max-w-[220px] truncate py-1 pr-2 capitalize">
+                  {labelize(row.category)}
+                </td>
+                <td className="px-2 py-1 text-right tabular-nums">{formatNumber(row.volume)}</td>
+                <td className="px-2 py-1 text-right tabular-nums">
+                  {formatBRLCompact(row.revenue)}
+                </td>
+                <td className="px-2 py-1 text-right">
+                  <span
+                    className="inline-block min-w-[72px] rounded px-2 py-0.5 text-right tabular-nums"
+                    style={freightHeat(row.avgFreight, freightMin, freightMax)}
+                  >
+                    {formatBRLCents(row.avgFreight)}
+                  </span>
+                </td>
+                <td className="px-2 py-1 text-right">
+                  <span
+                    className="inline-block min-w-[48px] rounded px-2 py-0.5 text-right tabular-nums"
+                    style={reviewHeat(row.avgReview)}
+                  >
+                    {row.avgReview.toFixed(2)}
+                  </span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

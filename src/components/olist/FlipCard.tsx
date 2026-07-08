@@ -24,21 +24,22 @@ export default function FlipCard({
       type="button"
       onClick={() => setOpen((o) => !o)}
       aria-pressed={open}
-      className={`group viz-root flex w-full flex-col rounded-lg border text-left transition-shadow duration-200 hover:shadow-md ${
-        compact ? 'h-40 p-4' : 'h-64 p-5'
+      className={`group viz-root flex h-full w-full flex-col rounded-lg border text-left transition-shadow duration-200 hover:shadow-md ${
+        compact ? 'p-3' : 'p-5'
       }`}
       style={{ borderColor: 'var(--border-hairline)', backgroundColor: 'var(--surface-1)' }}
     >
       <p
-        className="text-xs font-semibold tracking-widest uppercase"
+        className="text-[10px] font-semibold tracking-widest uppercase"
         style={{ color: 'var(--series-1)' }}
       >
         {frontTitle}
       </p>
 
-      <div className="relative mt-2 flex-1 overflow-hidden">
+      {/* Ambas capas ocupan la misma celda del grid: la carta mide lo que mida la más alta */}
+      <div className={`grid ${compact ? 'mt-1.5' : 'mt-2'}`}>
         <p
-          className={`absolute inset-0 leading-snug transition-opacity duration-200 group-hover:opacity-0 ${
+          className={`leading-snug transition-opacity duration-200 [grid-area:1/1] group-hover:opacity-0 ${
             compact ? 'text-sm' : 'text-lg'
           } ${showDetail ? 'opacity-0' : 'opacity-100'}`}
           style={{ color: 'var(--text-primary)' }}
@@ -47,7 +48,7 @@ export default function FlipCard({
         </p>
 
         <div
-          className={`absolute inset-0 transition-all duration-200 group-hover:translate-y-0 group-hover:opacity-100 ${
+          className={`transition-all duration-200 [grid-area:1/1] group-hover:translate-y-0 group-hover:opacity-100 ${
             showDetail ? 'translate-y-0 opacity-100' : 'translate-y-1.5 opacity-0'
           }`}
         >
@@ -58,7 +59,7 @@ export default function FlipCard({
             {backTitle}
           </p>
           <ul
-            className={`mt-1.5 leading-snug ${compact ? 'space-y-1 text-xs' : 'space-y-2 text-sm'}`}
+            className={`mt-1 leading-snug ${compact ? 'space-y-0.5 text-xs' : 'space-y-2 text-sm'}`}
             style={{ color: 'var(--text-primary)' }}
           >
             {backItems.map((item) => (
