@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { RotateCw } from 'lucide-react';
 
 export default function FlipCard({
   frontTitle,
@@ -16,55 +15,59 @@ export default function FlipCard({
   backItems: string[];
   compact?: boolean;
 }) {
-  const [flipped, setFlipped] = useState(false);
+  const [open, setOpen] = useState(false);
+
+  const showDetail = open;
 
   return (
     <button
       type="button"
-      onClick={() => setFlipped((f) => !f)}
-      onMouseEnter={() => setFlipped(true)}
-      onMouseLeave={() => setFlipped(false)}
-      className={`flip-card ${compact ? 'h-40' : 'h-64'} w-full text-left`}
-      aria-pressed={flipped}
+      onClick={() => setOpen((o) => !o)}
+      aria-pressed={open}
+      className={`group viz-root flex w-full flex-col rounded-lg border text-left transition-shadow duration-200 hover:shadow-md ${
+        compact ? 'h-40 p-4' : 'h-64 p-5'
+      }`}
+      style={{ borderColor: 'var(--border-hairline)', backgroundColor: 'var(--surface-1)' }}
     >
-      <div className={`flip-card-inner ${flipped ? 'flip-card-flipped' : ''}`}>
-        <div
-          className={`flip-card-face viz-root flex flex-col justify-between rounded-lg border ${compact ? 'p-4' : 'p-5'}`}
-          style={{ borderColor: 'var(--border-hairline)', backgroundColor: 'var(--surface-1)' }}
+      <p
+        className="text-xs font-semibold tracking-widest uppercase"
+        style={{ color: 'var(--series-1)' }}
+      >
+        {frontTitle}
+      </p>
+
+      <div className="relative mt-2 flex-1 overflow-hidden">
+        <p
+          className={`absolute inset-0 leading-snug transition-opacity duration-200 group-hover:opacity-0 ${
+            compact ? 'text-sm' : 'text-lg'
+          } ${showDetail ? 'opacity-0' : 'opacity-100'}`}
+          style={{ color: 'var(--text-primary)' }}
         >
-          <div>
-            <p
-              className="text-xs font-semibold tracking-widest uppercase"
-              style={{ color: 'var(--series-1)' }}
-            >
-              {frontTitle}
-            </p>
-            <p
-              className={`${compact ? 'mt-2 text-sm' : 'mt-3 text-lg'} leading-snug`}
-              style={{ color: 'var(--text-primary)' }}
-            >
-              {frontSubtitle}
-            </p>
-          </div>
-          {compact ? null : (
-            <p className="flex items-center gap-1.5 text-xs" style={{ color: 'var(--text-muted)' }}>
-              <RotateCw size={12} /> Pasa el cursor para el detalle
-            </p>
-          )}
-        </div>
+          {frontSubtitle}
+        </p>
 
         <div
-          className={`flip-card-face flip-card-back flex flex-col rounded-lg border ${compact ? 'p-4' : 'p-5'}`}
-          style={{ borderColor: 'var(--border-hairline)', backgroundColor: 'var(--series-1)' }}
+          className={`absolute inset-0 transition-all duration-200 group-hover:translate-y-0 group-hover:opacity-100 ${
+            showDetail ? 'translate-y-0 opacity-100' : 'translate-y-1.5 opacity-0'
+          }`}
         >
-          <p className="text-xs font-semibold tracking-widest text-white/80 uppercase">
+          <p
+            className="text-[10px] font-semibold tracking-widest uppercase"
+            style={{ color: 'var(--text-muted)' }}
+          >
             {backTitle}
           </p>
           <ul
-            className={`${compact ? 'mt-2 space-y-1 text-xs' : 'mt-3 space-y-2 text-sm'} leading-snug text-white`}
+            className={`mt-1.5 leading-snug ${compact ? 'space-y-1 text-xs' : 'space-y-2 text-sm'}`}
+            style={{ color: 'var(--text-primary)' }}
           >
             {backItems.map((item) => (
-              <li key={item}>• {item}</li>
+              <li key={item} className="flex gap-1.5">
+                <span aria-hidden style={{ color: 'var(--series-1)' }}>
+                  •
+                </span>
+                <span>{item}</span>
+              </li>
             ))}
           </ul>
         </div>
