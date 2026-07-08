@@ -73,6 +73,15 @@ const projectOverrides = defineConfig([
       'import-x/no-unresolved': ['error', { ignore: ['\\.css$'] }],
     },
   },
+  {
+    // Service worker scripts run in the Worker global scope, where `self` is
+    // the legitimate top-level object (not the window/self ambiguity the rule guards against).
+    name: 'project/service-worker',
+    files: ['public/sw.js'],
+    rules: {
+      'no-restricted-globals': 'off',
+    },
+  },
 ]);
 
 export default defineConfig([
