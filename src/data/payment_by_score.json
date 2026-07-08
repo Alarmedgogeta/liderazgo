@@ -1,32 +1,32 @@
 [
   {
     "score": 1,
-    "paymentValue": 1806523.28,
-    "orders": 9352,
-    "pctValue": 11.81
+    "paymentValue": 2221488.75,
+    "orders": 11364,
+    "pctValue": 14.01
   },
   {
     "score": 2,
-    "paymentValue": 496568.28,
-    "orders": 2920,
-    "pctValue": 3.25
+    "paymentValue": 540589.78,
+    "orders": 3130,
+    "pctValue": 3.41
   },
   {
     "score": 3,
-    "paymentValue": 1196402.78,
-    "orders": 7917,
-    "pctValue": 7.82
+    "paymentValue": 1233351.59,
+    "orders": 8134,
+    "pctValue": 7.78
   },
   {
     "score": 4,
-    "paymentValue": 2921915.02,
-    "orders": 18893,
-    "pctValue": 19.1
+    "paymentValue": 2948829.39,
+    "orders": 19043,
+    "pctValue": 18.59
   },
   {
     "score": 5,
-    "paymentValue": 8872621.73,
-    "orders": 56749,
-    "pctValue": 58.01
+    "paymentValue": 8914846.28,
+    "orders": 57001,
+    "pctValue": 56.21
   }
 ]

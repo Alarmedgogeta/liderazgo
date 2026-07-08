@@ -9,5 +9,7 @@
   "lateDeliveryRate": 6.77,
   "onTimeAvgScore": 4.29,
   "lateAvgScore": 2.27,
-  "lateOrdersRevenue": 1150865.66
+  "lateOrdersRevenue": 1150865.66,
+  "reviewsWithoutComment": 58247,
+  "totalReviews": 98673
 }

@@ -1,0 +1,66 @@
+{
+  "total": {
+    "revenue": 16008872.12,
+    "atRisk": 2762078.53,
+    "riskPct": 17.25,
+    "atRiskOrders": 14494
+  },
+  "quarters": [
+    {
+      "quarter": "2016-Q4",
+      "revenue": 59110.1,
+      "orders": 325,
+      "atRisk": 17488.98,
+      "riskPct": 29.59
+    },
+    {
+      "quarter": "2017-Q1",
+      "revenue": 880259.65,
+      "orders": 5262,
+      "atRisk": 142542.34,
+      "riskPct": 16.19
+    },
+    {
+      "quarter": "2017-Q2",
+      "revenue": 1521983.23,
+      "orders": 9349,
+      "atRisk": 239759.26,
+      "riskPct": 15.75
+    },
+    {
+      "quarter": "2017-Q3",
+      "revenue": 1994541.69,
+      "orders": 12642,
+      "atRisk": 286603.37,
+      "riskPct": 14.37
+    },
+    {
+      "quarter": "2017-Q4",
+      "revenue": 2852962.16,
+      "orders": 17848,
+      "atRisk": 553464.75,
+      "riskPct": 19.4
+    },
+    {
+      "quarter": "2018-Q1",
+      "revenue": 3267119.64,
+      "orders": 21208,
+      "atRisk": 763068.74,
+      "riskPct": 23.36
+    },
+    {
+      "quarter": "2018-Q2",
+      "revenue": 3338648.13,
+      "orders": 19979,
+      "atRisk": 464217.69,
+      "riskPct": 13.9
+    },
+    {
+      "quarter": "2018-Q3",
+      "revenue": 2093405.61,
+      "orders": 12820,
+      "atRisk": 294313.52,
+      "riskPct": 14.06
+    }
+  ]
+}

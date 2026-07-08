@@ -143,7 +143,7 @@ export default function PaymentDonut({ height = 340 }: { height?: number }) {
           {selected.score <= 2 ? (
             <p className="mt-3 text-sm font-medium" style={{ color: 'var(--delta-bad)' }}>
               Revenue en riesgo (scores 1–2): {formatBRL(atRiskValue)} — {atRiskPct.toFixed(1)}% del
-              total
+              valor con reseña
             </p>
           ) : null}
         </div>
