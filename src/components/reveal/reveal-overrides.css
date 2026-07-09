@@ -5,18 +5,62 @@
  * theme stylesheet to win on source order. Every heading property in the
  * theme is variable-driven, so this is a complete override.
  */
+/*
+ * Tipografía calcada del PPTX "Olist — Presentación Ejecutiva Analítica":
+ * títulos Merriweather 700 #0F172A (31.5pt ≈ 42px), portada 42pt ≈ 56px,
+ * cuerpo DM Sans #334155. El deck es 1280×720, igual que el PPTX a 96 dpi,
+ * así que los tamaños en px equivalen 1:1 a los puntos del archivo (pt × 4/3).
+ */
 .reveal {
   --r-background-color: #ffffff;
-  --r-main-font: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
-  --r-main-color: #171717;
-  --r-heading-font: var(--r-main-font);
-  --r-heading-color: #171717;
-  --r-heading-font-weight: 600;
+  --r-main-font: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --r-main-color: #334155;
+  --r-heading-font: var(--font-merriweather), Georgia, serif;
+  --r-heading-color: #0f172a;
+  --r-heading-font-weight: 700;
   --r-heading-text-transform: none;
   --r-heading-letter-spacing: normal;
-  --r-heading-line-height: 1.15;
-  --r-heading-margin: 0 0 1.25rem 0;
-  --r-heading1-size: 3rem;
-  --r-heading2-size: 1.875rem;
-  --r-heading3-size: 0.875rem;
+  --r-heading-line-height: 1.2;
+  --r-heading-margin: 0 0 0 0;
+  --r-heading1-size: 56px;
+  --r-heading2-size: 42px;
+  --r-heading3-size: 26px;
+}
+
+/*
+ * reveal.js centra el texto y añade márgenes generosos a p/ul/ol; el diseño
+ * del PPTX es de alineación izquierda y espaciado controlado por utilidades.
+ * Se neutralizan esos defaults FUERA de los componentes interactivos
+ * (.viz-root), que deben conservar su apariencia previa intacta.
+ */
+.reveal {
+  /* .reveal p usa margin: var(--r-block-margin) 0 — se anula vía variable
+     para que las utilidades mt-* de Tailwind sigan ganando en especificidad. */
+  --r-block-margin: 0;
+}
+
+.reveal ul:not(.viz-root *),
+.reveal ol:not(.viz-root *) {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Los charts nacieron bajo los defaults de reveal; se restauran dentro. */
+.reveal .viz-root {
+  --r-block-margin: 20px;
+  text-align: center;
+}
+
+/*
+ * Los componentes interactivos (charts y tabla) conservan su apariencia
+ * previa: sus h3 internos no heredan la tipografía serif del deck.
+ */
+.reveal .viz-root h3 {
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 1.25rem 0;
 }
